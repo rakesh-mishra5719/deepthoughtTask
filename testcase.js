@@ -14,7 +14,7 @@ test('Successful Login with Valid Credentials', async (test) => {
   const username = 'username';
   const password = 'password';
 
-  // Perform the login
+  // Perform the login for testing
   await test.typeText(usernameInput, username)
          .typeText(passwordInput, password)
          .click(loginButton);
